@@ -261,7 +261,7 @@ export default function BirthdaySurpriseMulti() {
           <h2 className="text-3xl font-bold text-pink-600 mb-4 text-center">💞 Our Love Journey 💞</h2>
           <p className="text-gray-700 mb-6 text-center">Step by step, every memory made us stronger 💖</p>
           <div className="relative border-l-4 border-pink-400 pl-6 space-y-8">
-            <MemoryCard title="The Day We Met" date="📅 20 May 2023">That first smile, that first glance — and I knew my heart found its home. 💗</MemoryCard>
+            <MemoryCard title="The Day We Met" date="📅 10 May 2025">That first smile, that first glance — and I knew my heart found its home. 💗</MemoryCard>
             <MemoryCard title="Our First Adventure" date="📅 14 Feb 2024">A day full of laughter, food, and love. We walked miles, but my heart was floating.</MemoryCard>
             <MemoryCard title="Endless Midnight Talks" date="📅 1 Sep 2024">Nights became shorter and sweeter with our endless silly conversations and dreams.</MemoryCard>
             <MemoryCard title="Our Forever Promise" date="📅 Coming Soon...">From strangers to lovers — now we promise a forever together 💑</MemoryCard>
