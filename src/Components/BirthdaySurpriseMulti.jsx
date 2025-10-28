@@ -79,6 +79,16 @@ export default function BirthdaySurpriseMulti() {
   const minutes = Math.floor((diff % 3600) / 60);
   const seconds = diff % 60;
 
+  // 🔔 Countdown শেষ হলে automatic Surprise trigger
+useEffect(() => {
+  if (diff === 0 && !showSurprise) {
+    setShowSurprise(true);
+    setConfetti(true);
+    setTimeout(() => setConfetti(false), 20000);
+  }
+}, [diff, showSurprise]);
+
+
   function saveMessage() {
     try {
       localStorage.setItem(savedMessageKey, personalMessage);
